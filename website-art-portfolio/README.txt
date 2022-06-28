@@ -1,0 +1,1 @@
+To open the portfolio website, go to "chua" folder then double click "index"

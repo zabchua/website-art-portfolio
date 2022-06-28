@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+}
+
+.about__header{
+    animation: transitionIn 2s;
+}
+.about__intro{
+    animation: transitionIn 3s;
+}
+.about__tableofcontents{
+    animation: transitionIn 3.5s
+}
+.about__semiIntro{
+    animation: transitionIn 3.75s;
+}
+.about__skills{
+    animation: transitionIn 3.87s;
+}
+.about__hobbies{
+    animation: transitionIn 3.9s;
+}
+.about__chat{
+    animation: transitionIn 3.9s;
+}
+.footer{
+    animation: transitionIn 4s;
+}
+
+@keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.about__header img{
+    width: 100vw;
+}
+
+.about__header{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    color: #171717;
+}
+
+.about__name{
+    font-size: 100%;
+    position: absolute;
+    left: 19%;
+    top: 17%;
+}
+
+.about__first-name{
+    font-size: 250%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+
+.about__last-name{
+    font-size: 250%;
+    position: absolute;
+    left: 29%;
+    top: 25%;
+}
+
+.about__her{
+    font-size: 90%;
+    position: absolute;
+    left: 29%;
+    top: 38%;
+    color: rgb(63, 63, 63);
+}
+
+.about__details{
+    font-size: 90%;
+    position: absolute;
+    left: 29%;
+    top: 58%;
+}
+
+.disclaimer{
+    font-size: 90%;
+    position: absolute;
+    left: 29%;
+    top: 73%;
+    width: 30%;
+    text-align: justify;
+    color: #3b3b3b;
+}
+
+/* INTRO */
+.about__intro{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: fit-content;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    color: #0f0f0f;
+    text-align: justify;
+    display: flex;
+}
+
+.about__firstHalf, .about__secondHalf{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: fit-content;
+}
+
+.about__intro img{
+    margin-right: 2.5vw;
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+.about__intro img:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+.about__secondHalf{
+    /* background-color: rgba(255, 0, 0, 0.116); */
+    bottom: 0;
+    position: relative;
+}
+
+.about__greetings{
+    font-size: 200%;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+.about__introduction{
+    font-size: 100%;
+    font-weight: 200;
+}
+
+/* TABLE OF CONTENTS */
+.about__tableofcontents{
+    padding-top: 10px;
+    margin-top: 10vh;
+    background-color: #22405c46;
+    width: 100vw;
+    height: fit-content;
+}
+
+.about__contents{
+    font-family: 'Roboto', sans-serif;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+}
+
+.about__stuffTitle{
+    font-size: 250%;
+    font-weight: 500;
+    margin-bottom: 2.5vh;
+    /* letter-spacing: 1px; */
+}
+
+.about__stuff{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.about__list{
+    font-size: 100%;
+    font-weight: 300;
+    color: rgb(243, 222, 182);
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 50px;
+    background-color: #22405c;
+    margin-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.about__list:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+    background-color: #2c2b2a;
+}
+
+.about__list-icon{
+    margin-right: 10px;
+}
+
+/* SEM INTRO */
+.about__semiIntro{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    width: 80vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    height: fit-content;
+    display: flex;
+}
+
+.about__semiIntro img{
+    margin-left: 2.5vw;
+    float: left;
+    width: 70%;
+    position: relative;
+}
+
+.about__semiIntro-title{
+    font-size: 200%;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+.about__semiIntro p{
+    margin-bottom: 3vh;
+    font-weight: 300;
+}
+
+.about__semiIntro-text{
+    font-size: 95%;
+    width: 80%;
+    float: right;
+}
+
+/* SKILLS */
+
+
+.about__skills-title{
+    font-size: 250%;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.about__skills-content{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: fit-content;
+    /* background-color: rgb(243, 243, 243); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about__skills-item{
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.about__1st3rd, .about__2nd3rd, .about__3rd3rd{
+    width: 33%;
+    height: fit-content;
+}
+
+.half-this{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background: #eee; */
+    margin: 10px auto;
+    position: relative;
+    float: left;
+}
+
+.about__skills-divider{
+    width: 100%;
+    position: relative;
+    height: 1px;
+    background-color: #171717;
+    margin-bottom: 1vh;
+}
+
+.about__skills-description{
+    width: 33%;
+    height: fit-content;
+    /* background-color: aqua; */
+    position: relative;
+    float: left;
+    font-size: 80%;
+    text-align: right;
+    padding-right: 1.8vw;
+    font-weight: 500;
+}
+
+.about__skills-descs{
+    width: 66%;
+    height: fit-content;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* background-color: #0f0f0f; */
+    float: left;
+    margin-bottom: 10px;
+}
+
+.about__skills-descItem{
+    font-size: 80%;
+    margin-bottom: 2%;
+    color: rgb(248, 248, 248);
+    height: fit-content;
+    width: fit-content;
+    padding: 2px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    display: flex;
+}
+
+.about__skills-descItem:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+.about__skills-credentials{
+    font-size: 80%;
+    margin-left: 4vw;
+    position: relative;
+    float: left;
+    padding-right: 1.8vw;
+    font-weight: 500;
+}
+
+.about__skills-creds{
+    font-size: 80%;
+    font-weight: 500;
+}
+
+#black{
+    background-color: #1f1f1f;
+}
+#lightorange{
+    background-color: rgb(179, 152, 104);
+}
+#orange{
+    background-color: rgb(160, 121, 50);
+}
+#blue{
+    background-color: rgb(23, 48, 94);
+}
+#gray{
+    background-color: #3d3d3d;
+}
+#lightgray{
+    background-color: #616161;
+}
+#green{
+    background-color: rgb(69, 102, 69);
+}
+#darkblue{
+    background-color: rgb(7, 29, 71);
+}
+#oranger{
+    background-color: rgb(116, 80, 14);
+}
+#beige{
+    background-color: rgb(161, 143, 117);
+}
+#red{
+    background-color: rgb(59, 3, 3);
+}
+
+/* HOBBIES */
+.about__hobbies-container{  
+    margin-top: 20vh;
+    width: 100vw;
+    height: fit-content;
+    padding: 20px 0;
+    background-color: rgba(122, 108, 90, 0.336);
+}
+
+.about__hobbyTitle{
+    font-size: 200%;
+    font-weight: 500;
+    margin-bottom: 2.5vh;
+    /* letter-spacing: 1px; */
+}
+.about__hobbiesList{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.about__hobbies{
+    font-family: 'Roboto', sans-serif;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.about__hobbies img{
+    width: 50%;
+    float: right;
+    margin-right: 2.5vw;
+    position: relative;
+}
+.about__hobby-list{
+    font-size: 80%;
+    font-weight: 300;
+    color: rgb(248, 248, 248);
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 50px;
+    background-color: #2c2b2a;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.about__hobby-list:hover{
+    background-color: rgb(105, 82, 38);
+    transition: all 0.3s ease-in;
+}
+
+/* CHAT */
+.about__chatHeader{
+    height: 15%;
+    background-color: #1a1a1a;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.about__zabzab{
+    font-size: 175%;
+    margin-left: 2.5%;
+    top: 30%;
+    position: relative;
+    color: rgb(245, 242, 238);
+}
+
+.about__chatHeader img{
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 5%;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.about__chat{
+    width: 80vw;
+    font-family: 'Roboto';
+    color: rgb(248, 247, 245);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__chatReceive{
+    border-radius: 50px 30px 30px 0;
+    background-color: #22405cc0;
+    width: fit-content;
+    max-width: 50vw;
+    height: fit-content;
+    padding: 10px 20px 10px 40px;
+    margin-bottom: 10px;
+}
+
+.about__chatSend{
+    border-radius: 30px 50px 0px 30px;
+    background-color: #cfcfcfc0;
+    width: fit-content;
+    max-width: 50vw;
+    height: fit-content;
+    padding: 10px 20px 10px 40px;
+    margin-bottom: 10px;
+    float: right ;
+}
+
+.about__chatSend:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-out;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+.about__chatSend a{
+    text-decoration: none;
+    color: #96712c;
+}
+
+.about_chat{
+    height: fit-content;
+    margin-bottom: 10%;
+}
+
+.footer{
+    margin-top: 20%;
+    background-color: #b18b4427;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

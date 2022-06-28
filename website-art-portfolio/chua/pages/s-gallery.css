@@ -1,0 +1,108 @@
+.spreads-and-infographs{
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #014f73; */
+}
+
+.spreads{
+    width: 60%;
+    margin-right: 50px;
+    /* background-color: antiquewhite; */
+}
+.spreads__content{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.spreads__title, .infographs__title{
+    font-family: 'Montserrat', monospace;
+    letter-spacing: 10px;
+    font-size: 200%;
+    text-align: left;
+    background-color: rgb(240, 207, 23);
+    padding: 0 0 0 0;}
+.spreads__title a, .spreads__caption a, .infographs__caption a, .infographs__title a{
+    text-decoration: none;
+    color: black;}
+.spreads__title a:hover, .infographs__title a:hover{
+    color: #014f73;
+    font-weight: 400;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.308);
+    transition: all 0.3s ease;}
+
+.spreads__caption, .infographs__caption{
+    font-family: 'Montserrat', monospace;
+    letter-spacing: 0;
+    font-size: 80%;
+    text-align: left;
+    padding: 5px 0 50px 0;}
+.spreads__caption a:hover, .infographs__caption a:hover{
+    font-weight: 400;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.308);
+    transition: all 0.3s ease;}
+
+.spreads img{
+    width: 100%;
+    position: relative;
+    opacity: 0.95;
+}
+
+.spreads-and-infographs img:hover{
+    transition: all 0.3s ease-in-out;
+    z-index: 6;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.spreads__col1{
+    /* background-color: #014f73; */
+    height: 100px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+}
+.spreads__col2{
+    /* background-color: #014f73; */
+    height: 100px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+}
+.spreads__col3{
+    /* background-color: #014f73; */
+    height: 100px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* INFOGRAPHS */
+
+.infographs{
+    width: 40%;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.infog__row1, .infog__row2, .infog__row3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.infographs img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    opacity: 0.95;
+    margin-right: 5px;
+}

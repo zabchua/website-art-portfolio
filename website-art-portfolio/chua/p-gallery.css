@@ -1,0 +1,108 @@
+.packaging{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.packaging__background{
+    background-color: #da9d2d3f;
+    border-width: 10%;
+    border-radius: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.packaging__content{
+    width: 80%;
+}
+
+.packaging-row1 img, .packaging-row3 img{
+    height: 90%;
+    position: absolute;
+    opacity: 0.95;
+    display: block;
+    margin-left: 60px;
+    margin-right: auto;
+    align-self: center;
+}
+
+.packaging img:hover{
+    transition: all 0.3s ease-in-out;
+    z-index: 6;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.packaging-row1, .packaging-row3{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 250px;
+    /* background-color: rgb(51, 56, 59); */
+}
+
+.packaging-row2{
+    width: 100%;
+    display: block;
+    height: 250px;
+    align-self: center;
+
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.packaging__1, .packaging__2, .packaging__3, .packaging__5, .packaging__6, .packaging__7{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgba(18, 112, 34, 0); */
+    position: relative;
+}
+
+.packaging__4 img{
+    width: 91%;
+    position: relative;
+    height: 100%;
+    display: block;
+    margin-left: 48px;
+}
+
+.packaging__title { 
+    font-family: 'Montserrat', monospace;
+    letter-spacing: 20px;
+    font-size: 250%;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.packaging__title a{ 
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.packaging__title a:hover {
+    color: #014f73;
+    font-weight: 400;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.308);
+    transition: all 0.3s ease;
+}
+
+  .packaging__caption {
+    font-family: 'Montserrat', monospace;
+    letter-spacing: 0;
+    font-size: 100%;
+    text-align: center;
+    padding: 5px 0 30px 0;
+}
+  .packaging__caption a{ 
+    text-decoration: none;
+    color: black;
+}
+.packaging__caption a:hover{ 
+    font-weight: 400;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.308);
+    transition: all 0.3s ease;
+}
